@@ -1,0 +1,193 @@
+
+.title {
+  line-height: 6.5rem; 
+  font-size: 5.5rem;
+  margin-top: -2.5rem;
+  margin-bottom: 0;
+}
+@media (min-width: 550px) {
+  .title {
+    line-height: 8.5rem; 
+    font-size: 7.5rem;
+  }
+}
+
+.title-description {
+  margin-top: 1rem;
+}
+
+.sub-title {
+  font-weight: 600;
+}
+
+
+
+.header-image {
+  opacity: .5;
+  position: absolute;
+  z-index: -10;
+  background-color: #414349;
+  background-image: url(tesla-main.jpg);
+  background-position: left bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  margin-top: 0rem;
+  margin-left: 0 !important;
+}
+
+.header-title {
+  padding-top: 10rem;
+}
+}
+
+.menu {
+  height 10rem;
+}
+
+.menu-container {
+  margin-top: 20rem;
+}
+
+.menu-line {
+  margin: 0;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.menu-item {
+  text-align: center;
+}
+
+.bio-image {
+  background-color: #414349;
+  background-image: url(tesla-bio.jpeg);
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem; 
+}
+
+.read-more-content {
+  display: none;
+}
+
+.source {
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+
+
+.timeline-image {
+  background-color: #414349;
+  height: 25rem;
+  margin-left: 4%;
+}
+
+.timeline-text {
+  margin-left: 4% !important;
+}
+
+#full-bio-button-close {
+  display: block;
+  margin-top: 2rem;
+}
+
+.birth-image {
+  background-image: url(tesla-birth.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ac-image {
+  background-image: url(war-of-currents-tesla-vs-edison-figure-5.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.osc-image {
+  background-image: url(tesla-osc.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.xray-image {
+  background-image: url(tesla-xray.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.radio-image {
+  background-image: url(tesla-radio.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.coil-image {
+  background-image: url(tesla-coil.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-feature {
+  padding-top: 8rem;
+  margin-bottom: -5rem;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 100%;
+}
+
+.feature {
+  margin-bottom: -2rem;;
+}
+
+.change-image-1 {
+  margin-left: 0;
+  background-color: #414349;
+  background-image: url(tesla-coil.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:35rem;
+}
+.change-image-2 {
+  margin-top: 3rem;
+  margin-left: 0;
+  background-color: #414349;
+  background-image: url(tesla-coil.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:35rem;
+}
+
+.lean-left {
+  text-align: left;
+}
+
+.second-change {
+  margin-top: 3rem;
+}
+
+#change {
+  margin-bottom: 5rem;
+}
+
+.change-image-3 {
+  margin-left: 0;
+  background-color: #414349;
+  background-image: url(tesla-time.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:45rem;
+}

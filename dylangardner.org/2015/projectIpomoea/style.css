@@ -1,0 +1,174 @@
+body {
+	margin: 0 auto;
+	background-color: #b2ebf2;
+	font-family: 'Source Code Pro';
+	font-weight: 200;
+}
+/*Top Part*/
+.top {
+	width: 100%;
+	height: 70px;
+	background-color: #00bcd4;
+	border-bottom: solid 4px #00ACC1;
+}
+
+/*Logo stuff*/
+.logo {
+	font-size: 40px;
+	font-weight: 300;
+	color: #006064;
+	margin: auto;
+	width: 300px;
+}
+.logo span {
+	float:left;
+}
+.d {
+	padding-top: 6px;
+}
+.g {
+	padding-top: 16px;
+	padding-left: 2px;
+}
+
+/*main*/
+.main {
+	margin: 0 auto;
+	margin-bottom: 75px;
+	max-width: 900px;
+}
+.mainPic {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+/*The Who Part*/
+.intro {
+	font-weight: 300;
+	font-size: 42px;
+	color: #006064;
+	margin: 0;
+}	
+.about {
+	max-width: 860px;
+	margin-left: 40px;
+	padding-top: 5px;
+	color: #00838f;
+	margin-bottom: 10px;
+}
+p {
+	margin: 0;
+}
+a {
+	color: #00bcd4;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}	
+
+/*Projects Part*/
+.projects {
+	height: 150px;
+	margin-top: 20px;
+}
+.project1 {
+	width: 45%;
+	float: left;
+	height: 150px;
+	background-color: #4DD0E1; 
+}
+.project2 {
+	width: 45%;
+	float: right;
+	height: 150px;
+	background-color: #4DD0E1; 
+}
+.projects h2 {
+	margin-left: 12%;
+	font-size: 48px;
+	color: #006064;
+}
+.project-a {
+	text-decoration: none;
+	color: inherit;
+}
+/*Bottom Part (Src)*/
+.src {
+	background-color: #009688;
+	height: 100px;
+	text-align: center;
+}
+#git {
+	line-height: 50px;
+	font-size: 40px;
+	color: #006064;
+}
+.update {
+	font-family: 'Source Code Pro';
+	font-weight: 300;
+	font-size: 22px;
+	color: #006064;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+/*Privacy Part(not at homepage)*/
+.indent {
+	padding-left: 20px;
+	padding-top: 5px;
+}
+/*For smaller Devices*/
+/*Do not add more rules down here*/
+
+
+/*tabletStyle*/
+@media screen and (max-width: 60em) { /*tStyle*/
+.main {
+	max-width: 640px;
+}
+
+.mainPic {
+	width: 640px;
+	height: auto;
+}
+
+.about {
+	max-width: 620px;
+	margin-left: 20px;
+}
+
+h2 {
+	font-size: 36px;
+}
+}
+
+/*mStyle*/
+@media screen and (max-width: 42em) { /*mStyle*/
+.main {
+	max-width: 95%;
+}
+
+.mainPic {
+	width: 100%;
+	height: auto;
+}
+
+.about {
+	max-width: 95%;
+	margin-left: 20px;
+}
+h2 {
+	font-size:36px;	
+}
+}
+
+/*Extra Code Bits
+.hr {
+	width: 300px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: solid 1px #00bcd4;
+}
+*/

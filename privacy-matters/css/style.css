@@ -1,0 +1,111 @@
+
+.jumbo {
+  height: 650px;
+  z-index: -20;
+  background: url(http://rubenverborgh.github.io/WebFundamentals/birds-eye-view/images/web-we-have-to-save.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-weight: 700;animation-iteration-count: 
+}
+
+.header {
+  padding-top: 150px;
+}
+
+.why-image {
+  width: 100%;
+  height: 250px;
+  background: url(http://isocracy.org/sites/default/files/cobb-anarchy.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.effect {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+ul {
+  padding-left: 15px;
+}
+
+.effect-image-container {
+  width: 100%;
+  height: 150px;
+}
+
+.effect-image {
+  height: 300px;
+  background: url(../images/spyPrivacy.png) no-repeat center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.nothing-to-hide {
+  padding-top: 230px;
+}
+
+.hashtag {
+  text-align: center;
+  margin: 0 auto;
+  color: lightgray;
+  font-weight: 400;
+}
+
+.privacy-violation {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.reading {
+  padding-top: 70px;
+}
+
+.privacy-violation-image {
+  width: 100%;
+  height: 520px;
+  background: url(../images/howPrivacy.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main {
+  padding-top: 40px !important;
+  padding-bottom: 50px !important;
+  background-color: white;
+}
+
+footer {
+  padding-top: 25px;
+  background-color: darkslategray;
+}
+
+.footer-title {
+  color: white;
+}
+
+body {
+	margin: 0 !important;
+}
+
+
+
+a {
+  word-break: break-all;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<!--Fonts-->
+<title>DylanGardner</title>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href="css/lightPic.css" type="text/css" rel="stylesheet" id="css">
+	
+	<!--<script language="javascript">
+        $(document).ready(function(){
+            $(".light").click(function(){
+                $(this).css("background-color", "#FFF");
+            })
+        })
+    </script>-->
+    <script language="javascript">
+$(document).ready(function(){
+    $('.dark').click(function(){
+                $('#css').attr("href","css/dark.css");
+                $('#photo').attr("src","photo/BackDark.gif");
+        });
+    $('.light').click(function(){
+                $('#css').attr("href","css/light.css");
+                $('#photo').attr("src","photo/BackLight.gif");
+    });
+    $('.holiday').click(function(){
+                $('#css').attr("href", "css/lightHoliday.css");
+                $('#photo').attr("src", "photo/BackLightHoliday2.jpg");
+    });
+});
+    </script>
+</head>
+
+<body>
+	<section class="top">
+    		<span class="nav">&nbsp;&nbsp;<a href="">about</a>&nbsp;&nbsp;<a href="">bloq</a>&nbsp;&nbsp;<a href="">photo</a></span>
+    		<img src="photo/BackLight.gif" class="photo" id="photo">
+	</section>
+	
+    <main>
+		<div class="BlueDiv"></div>
+            <section class="info">
+        		<h1>&nbsp;-photo.&nbsp;<a href="Holiday.htm" class="more">Home.</a></h1>
+                <section class="showcase">
+                    <img src="photo/Fireplace2.jpg" id="first">
+                </section>
+                <section class="showcase2">
+                    <img src="photo/DesktopSs.jpg" id="first">
+                </section>
+            </section>
+        <section class="bottom">
+                <button type="button" class="light" id="light">&nbsp;Lighter.</button>
+                <button type="button" class="dark" id="dark">&nbsp;Darker.</button>
+                <button type="button" class="holiday" id="holiday">&nbsp;Holiday.</button>
+        </section>   
+        </main>
+
+
+</body>
+</html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tungsten.css</title>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet">
+  
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="tungsten.css">
+  <link rel="stylesheet" href="timeline.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="modernizer.js"></script>
+  
+</head>
+<body>
+  <!-- Primary Page Layout -->
+  <div class="container">
+    <div class="header row">
+      <section class="header-title nine column offset-by-one">
+        <h6 class="sub-title">A STORY ABOUT</h6>
+        <h1 class="title">NIKOLA<br>TESLA</h1>
+        <h6 class="title-description">By Dylan Gardner</h6>
+      </section>
+      <section class="header-image twelve column"></section>
+    </div>  
+  </div>
+  <div class="container menu-container">
+    <hr class="menu-line">
+    <div class="menu row">
+      <a href="#bio"><h6 class="three columns menu-item">Biography</h6></a>
+      <a href="#experiments"><h6 class="three columns menu-item">Experiments</h6></a>
+      <a href="#change"><h6 class="three columns menu-item">World Change</h6></a>
+      <a href="#life"><h6 class="three columns menu-item">Personal Life</h6></a>
+    </div>
+    <hr class="menu-line">
+  </div>
+  <main class="container" id="bio">
+    <div class="row">
+      <div class="bio-image five columns"></div>
+      <div class="bio-description seven columns">
+        <h3>NIKOLA TESLA (1856 - 1943)</h3>
+        <p>
+          On July 10th, 1856, Tesla was born in Smiljan, Lika, which was part of the Austo-Hungarian Empire at that time. Tesla was a inventor, scientist and engineer known for his work on AC electricity and desiging the modern AC current system.
+        </p>
+        <button class="button-primary" id="full-bio-button">Read Full Bio</button>
+        <div class="read-more-content" id="full-bio">
+          On July 10th, 1856, Tesla was born in Smiljan, Lika, which was part of the Austo-Hungarian Empire at that time. His father was a priest and his mother was a farmer. In 1863, at the age of 7, Tesla's brother died in a riding accident, which shocked Tesla. Many contribute this to the first signs of his mental illness. Tesla studied math and physics at University of Prague, and soon accepted a job in Paris, where he repaired DC power plants for Edison. Two years later, he immigrated to the US, where he was hired as an engineer for Edison. Tesla impressed Edison, and at one point, Edison told Tesla that he'd pay him $50,000 to improve his DC dynamos. After experimenting, Tesla presented his solution to Edison and asked for his reward. Edison's response was, <blockquote>“Tesla, you don’t understand our American humor.” -Thomas Edison</blockquote> and he quit soon after. After failing at starting his own company, Tesla soon discovered AC current (Read more below), and was granted more than 30 patents. Tesla experimented for a while, and started experimenting with electric oscillators, meters, improved lights &amp; x-rays. Tesla researched x-rays extensively, until his laboratory caught on fire and all of his research, valued at $50,000 in that era, was lost. A few weeks later, Wilhelm Rontgen announced he had discovered x-rays. Tesla then went on to experiment with radio, with much success. In 1898, Tesla demonstrated a radio-controlled boat to the public. Once again, his invention credit was stolen by another scientist, Guglielmo Marconi, who sent and received a radio transmission over the atlantic. (Tesla once stated that it was done with his 17 patents.). Tesla then moved to Colorado springs, where he experimented with high voltage. He soon created artificial lightning, which was heard from 15 miles away. Starting with $4,318,200 in today's money, Tesla began constructing the Wardenclyffe Tower, a tower that would wireless send signals. In December 1901, Marconi successfully beat tesla to send wireless transmissions. With a lack of funding, Tesla's Wardenclyffe Tower project failed. Tesla moved on, and in the last decade of his life, he moved into a New York hotel, where his energy and mental health faded, until he passed away on January 7th 1943.
+          <h6 class="source">Read More about Tesla's Life:</h6>
+          <a href="https://en.wikipedia.org/wiki/Nikola_Tesla">https://en.wikipedia.org/wiki/Nikola_Tesla</a>
+          <button class="button-primary" id="full-bio-button-close">Close Full Bio</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container" id="experiments">
+    <div class="row">
+      <section class="cd-horizontal-timeline loaded">
+        <div class="timeline">
+          <div class="events-wrapper">
+            <div style="width: 1800px;" class="events">
+              <ol>
+                <li><a style="left: 120px;" href="#0" data-date="01/01/2014" class="selected">1856</a></li>
+                <li><a style="left: 300px;" href="#0" data-date="01/06/2014">1887</a></li>
+                <li><a style="left: 480px;" href="#0" data-date="01/12/2014">1893</a></li>
+                <li><a style="left: 600px;" href="#0" data-date="01/06/2015">1894</a></li>
+                <li><a style="left: 780px;" href="#0" data-date="01/09/2015">1897</a></li>
+                <li><a style="left: 960px;" href="#0" data-date="01/11/2015">1899</a></li>
+                <li><a style="left: 1020px;" href="#0" data-date="01/04/2016">1943</a></li>
+              </ol>
+
+              <span style="transform: scaleX(0.0772222);" class="filling-line" aria-hidden="true"></span>
+            </div> <!-- .events -->
+          </div> <!-- .events-wrapper -->
+
+          <ul class="cd-timeline-navigation">
+            <li><a href="#0" class="prev inactive">Prev</a></li>
+            <li><a href="#0" class="next">Next</a></li>
+          </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+
+        <div class="events-content">
+          <ol>
+            <li class="selected" data-date="01/01/2014">
+              <h3>Tesla&#39;s birth</h3>
+              <h6>July 10th, 1856</h6>
+              <div class="timeline-image birth-image five columns" id="image1"></div>
+              <div class="timeline-text seven columns">	
+                <p>Nikola Tesla was born around midnight on July 10th during a fierce lightning storm. Legend has it that the midwife declared that the child would be a child of darkness, in which to his mother replied:</p>
+                <blockquote>“No. He will be a child of light.” -Milutin Tesla</blockquote>
+              </div>
+            </li>
+
+            <li data-date="01/06/2014">
+              <h3>AC Power Development</h3>
+              <h6>1887</h6>
+              <div class="timeline-image ac-image five columns" id="image1"></div>
+              <div class="timeline-text seven columns">	
+                <p>After working for Edison with DC power, Tesla realised that AC power could be more efficient (DC power required a power station every 2 miles) and started developing AC power. AC power more efficient because it could travel longer distances. Tesla soon developed generators, motors and transformers for AC power, and held 40 patents. This development changed the world, because it is the basis for long distance electricity. With the development of AC generators and motors, a contest between AC and DC power, created the war of currents, a economic fight over the use of AC power and DC power.</p>
+              </div>
+            </li>
+
+            <li data-date="01/12/2014">
+              <h3>Oscilators</h3>
+              <h6>1893</h6>
+              <div class="timeline-image osc-image five columns" id="image1"></div>
+              <div class="timeline-text seven columns">	
+                <p><em>A Oscillator is a recirculating electricity generator that could be set to a specific frequency</em>. Tesla created a oscillator in 1893 and patented it. An oscillator could be used for a steam electricity generator, and many versions tesla developed were a possible replacement for generators in steam engines. There are claims that the oscillator had a physiological effect on people, and that it acted as a laxative, causing people to rush to the bathroom afterwards. Tesla also told a story of causing vibrations in his building by setting the oscillator the the natural frequency of the building's structure.
+
+                </p>
+              </div>
+            </li>
+
+            <li data-date="01/06/2015">
+              <h3>X-Rays</h3>
+              <h6>1894</h6>
+              <div class="timeline-image xray-image five columns" id="image1"></div>
+              <div class="timeline-text seven columns">	
+                <p>In 1894, Tesla started experiment with x-rays, in which he called a radiant energy of "invisible" kinds. After researching for many months, his research, worth $50,000, was lost in a laboratory fire. Afterwards, in an interview with the New York Times he stated that</p><blockquote> "I am in too much grief to talk. What can I say? The work of half my lifetime... swept away in a fire." -Nikola Tesla</blockquote> <p>Tesla also may have also inadvertently captured a x-ray image before Wilhelm Roentgen's announcement of the discovery of x-rays.
+                </p>
+              </div>
+            </li>
+
+            <li data-date="01/09/2015">
+              <h3>Radio</h3>
+              <h6>1897</h6>
+              <div class="timeline-image radio-image five columns"></div>
+              <div class="timeline-text seven columns">	
+                <p>In 1897, Tesla discovered that he could transmit and receive radio signals with it tuned to resonate at the same frequency. In 1898, Tesla demonstrated a radio controlled boat, which he showed off during an exhibition at madison square gardens. He filed several patents in 1900. After Guglielmo Marconi, who was experimenting with radio at the time, successfully transmitted and received radios across the atlantic ocean, the U.S. Patent office suddenly reversed Tesla's patent and gave it to Marconi. In response, Tesla replied,</p><blockquote> "Marconi is a good fellow. Let him continue. He is using seventeen of my patents" -Nikola Tesla</blockquote><p> After Marconi won the Nobel Prize in 1911, Tesla was furious and sued the Marconi Company for infringement. The case failed due to Tesla's lack of financial support.
+                  <br><br>
+                  It wasn't until 1943, after Tesla's death, that the U.S. Supreme Court voided four of Marconi's key patents, acknowledging Tesla's innovations in radio.
+                </p>
+              </div>
+            </li>
+
+            <li data-date="01/11/2015">
+              <h3>Tesla Coil</h3>
+              <h6>1899</h6>
+              <div class="timeline-image coil-image five columns" id="image1"></div>
+              <div class="timeline-text seven columns">	
+                <p>After moving to Colorado Springs in 1899, Tesla started experimenting with high voltage. He soon was able to create sparks, and eventually created artificial lightning with discharges consisting of millions of volts, and stretching 135 feet long. With this large power draw, Tesla even caused a power outage.</p>
+              </div>
+            </li>
+
+            <li data-date="01/04/2016">
+              <h3>Death</h3>
+              <h6>January 7th 1943</h6>
+              <p>	
+                Tesla died on January 7th 1943, he spent his last daysliving alone in a NYC Hotel, where his energy and mental health faded. He died at the age of 86.
+              </p>
+            </li>
+          </ol>
+        </div> <!-- .events-content -->
+      </section>
+    </div>
+  </div>
+  <div class="container" id="change">
+    <div class="row">
+      <h2>
+        Changes to Society:
+      </h2>
+      <div class="change-image-1 five columns"></div>
+      <div class="change-text seven columns">
+        <h3>
+          AC POWER
+        </h3>
+        <p>
+          With the development of modern generators, motors and transformers for AC power, Tesla transformed the way we move energy across long distances, and brought reliable electricity to the masses. Before Tesla, the world was connected through dc power, which was reliable but failed to transverse long distances. Although Tesla did not discover AC power, he brought it the modern age. His patents and designs for AC power are still used today.
+        </p>
+      </div>
+    </div>
+    <div class="row second-change">
+      <div class="change-text seven columns">
+        <h3>
+          RADIO
+        </h3>
+        <p class="lean-left">
+          Guglielmo Marconi is often considered the person who discovered radio however, Nikola Tesla actually experimented with radio about the same time as Marconi, and patented his ideas first. It is widely considered to be that Marconi actually used Tesla's research to help him, and some of his patents were quite similar to Tesla's. Marconi was however, the first to achieve transatlantic radio messages, and developed the technology further than tesla. After Tesla's death, the U.S. Supreme Court voided four of Marconi's key patents, acknowledging Tesla's innovations in radio.
+        </p>
+      </div>
+      <div class="change-image-2 five columns"></div>
+    </div>
+  </div>
+  <div class="container" id="life">
+    <div class="row">
+      <h2>
+        Personal Information
+      </h2>
+      <div class="change-image-3 five columns"></div>
+      <div class="change-text seven columns">
+        <h3>
+          INSANITY AND DEATH
+        </h3>
+        <p>
+          Tesla was a genius, but he suffered from several mental illnesses. Some of his mental illnesses came from the horrific experience of his brother dying at a young age. Tesla got little sleep and claimed to never sleep more than two hours at a time. He also had an Eidetic Memory, which meant that he could memorize entire books and visualize inventions with extreme accuracy. Once he an idea fully visualized, he then started experimenting, something that very few people, much less scientists could do. He also hated pearls for an unknown reason. He went so far as to refuse to speak to women wearing them. When his secretary wore pearl jewelry one day, he sent her home. As Tesla grew older, his illnesses grew worse. At the end of his life, he started feeding pigeons. In one of his last interview, he stated,</p><blockquote>“But there was one, a beautiful bird, pure white with light grey tips on its wings; that one was different… I loved that pigeon as a man loves a woman, and she loved me. As long as I had her, there was a purpose to my life.” -Nikola Tesla </blockquote><p>So… Tesla was basically insane near the end of his life, and eventually died on January 7, 1943 in a New York hotel room, alone, poor and forgotten.
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer class="container">
+    <div class="row">
+      <h3>
+        Sources:
+      </h3>
+      <a href="http://www.pbs.org/newshour/rundown/5-things-you-didnt-know-about-nikola-tesla/">http://www.pbs.org/newshour/rundown/5-things-you-didnt-know-about-nikola-tesla/</a><br>
+      <a href="http://www.history.com/topics/inventions/nikola-tesla">http://www.history.com/topics/inventions/nikola-tesla</a><br>
+      <a href="https://web.archive.org/web/20120525133151/http://www.teslasociety.org/about.html">https://web.archive.org/web/20120525133151/http://www.teslasociety.org/about.html</a><br>
+      <a href="http://teslasociety.com/biography.htm">http://teslasociety.com/biography.htm</a><br>
+      <a href="http://www.pbs.org/tesla/ll/ll_whoradio.html">http://www.pbs.org/tesla/ll/ll_whoradio.html
+      </a><br>
+      <a href="https://teslaresearch.jimdo.com/books-1/the-inventions-researches-and-writings-of-nikola-tesla-by-thomas-commerford-martin-second-edition-new-york-press-of-milroy-emmet-1894/">https://teslaresearch.jimdo.com/books-1/the-inventions-researches-and-writings-of-nikola-tesla-by-thomas-commerford-martin-second-edition-new-york-press-of-milroy-emmet-1894/
+      </a><br>
+      <a href="http://www.biography.com/people/nikola-tesla-9504443#synopsis">http://www.biography.com/people/nikola-tesla-9504443#synopsis
+      </a><br>
+      <a href="https://energy.gov/articles/war-currents-ac-vs-dc-power">https://energy.gov/articles/war-currents-ac-vs-dc-power</a><br>
+      <a href="https://teslauniverse.com/sites/default/files/article_files/18950314-02.pdf">https://teslauniverse.com/sites/default/files/article_files/18950314-02.pdf
+      </a><br>
+    </div>
+  </footer>
+  <script src="jquery.js"></script>
+  <script src="jquery-mobile.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

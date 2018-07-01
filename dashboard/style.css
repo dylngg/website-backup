@@ -1,0 +1,487 @@
+/*Main*/
+main {
+	background-color: #8BC248;
+	height: 100%;
+}
+.page-container {
+	z-index: 10;
+	-webkit-box-shadow: -3px 0px 10px #7e7e7e;
+	box-shadow: -3px 0px 10px #7e7e7e;
+}
+@media all and (min-width: 1280px) {
+	.page-container {
+		width:calc(100% - 220px);
+		margin-left: 220px;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	
+}
+/* EXPERIEMNAL !!*/
+.moveOver {
+	
+}
+
+
+/*Navigation*/
+.navigation {
+	width: 220px;
+	height: 100%;
+	position: fixed;
+	z-index: -5;
+	background-color: #EDEDED;
+}
+.nav-date {
+	margin-left: 20px;
+	font-size: 32px;
+	color: #8BC248;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+.bullet {
+	left: 0;
+	width: 18px;
+	height: 36px;
+	margin-top: 2px;
+	background-color: #BDBCBC;
+	display: inline-block;
+	visibility: hidden;
+}
+.nav {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	z-index: -10;
+}
+.list-image {
+	margin-left: 10px;
+	margin-top: 10px;
+	color: #BDBCBC;
+	position: absolute;
+	display: inline-block;
+}
+.nav-title {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #BDBCBC;
+	font-size: 24px;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 60px;
+}
+.nav2 {
+	margin-top: 5px;
+}
+.active {
+	visibility: visible;
+	background-color: #616161;
+}
+.text-active {
+	color: #616161;
+}
+.mdi::before {
+	font-size: 32px;
+}
+.nav-bottom {
+	position: fixed;
+	z-index: 1;
+	bottom: 0;
+	background-color: #EDEDED;
+	width: 220px;
+	margin-bottom: 0;
+	height: 60px;
+}
+.nav-line {
+	width: 180px;
+	border: solid #BDBCBC 1.75px;
+	margin: auto;
+}
+.nav-person {
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	line-height: 60px;
+	margin-top: 12px;
+	margin-left: 35px;
+}
+.logOut {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: #616161;
+	margin-left: 85px;
+	position: absolute;
+	margin-top: 18px;
+}
+.logout:hover {
+	color: #B5E4FA;
+}
+
+
+
+/*Navbar*/
+.navbar {
+	height: 50px;
+	width: 100%;
+	margin-bottom: 0;
+	background-color: #F9FAFA;
+}
+.menu {
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	margin-top: 5px;
+}
+.menu-container {
+	margin-left: 10px;
+}
+.title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin: auto;
+	color: #616161;
+	text-align: center;
+	line-height: 50px;
+}
+.title-container {
+	width: 117px;
+	line-height: 50px;
+	margin: auto;
+}
+.person {
+	/*Enter persons's Url here*/
+	background-image: url('');
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+	background-color: darkgrey;
+	margin-right: 4px;
+}
+.person-icon {
+	margin-right: 5px;
+	display: inline;
+	margin-top: -40px;
+}
+
+
+/*Main-Image*/
+.main-image {
+	background-repeat: no-repeat;
+	background-image:url(background.svg);
+	background-size: cover;
+	height: 350px;
+}
+@media all and (max-width: 650px) {
+	.main-image {
+		background-size: 750px 192px;
+		height: 192px;
+	}
+}
+
+
+
+/*Event*/
+.main-event {
+	margin-left: 25px;
+	position: absolute;
+}
+.event-time {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	color: #BDBCBC;
+	font-weight: 400;
+}
+.event-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 42px;
+	color: #616161;
+	font-weight: 400;
+}
+@media all and (max-width: 650px) {
+.main-event {
+	margin-top: -8px;
+	margin-left: 18px;
+	position: absolute;
+}
+.event-time {
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	color: #BDBCBC;
+	font-weight: 400;
+}
+.event-title {
+	font-family: 'Roboto', sans-serif;
+	font-size: 32px;
+	color: #616161;
+	font-weight: 400;
+}
+}
+
+
+
+/*Main Content*/
+.main-content {
+	background-color: #8BC248;
+	max-width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: bottom;
+}
+
+
+
+/*Chores*/
+.box1 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	height: 75px;
+	background-color: #7BB241;
+}
+ul {
+	list-style-position: outside;
+	list-style-type: none;
+	box-sizing: border-box;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: -12px;
+	margin-top: 5px;
+}
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	color: #616161;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+.name {
+	margin-left: -10px;
+	margin-top: 20px;
+	margin-bottom: -5px;
+}
+.name-calendar {
+	margin-top: 20px;
+}
+.chore {
+	display: inline-block;
+	margin-left: 4.5%;
+}
+.wchore {
+	display: inline-block;
+	margin-left: 4.5%;
+	margin-bottom: 10px;
+}
+.box-content {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #F3F3F3;
+	line-height: 75px;
+	font-weight: 400;
+	text-align: center;
+}
+@media all and (min-width: 860px) {
+.chore {
+	display: block;
+	max-width: 360px;
+	float: left;
+	margin-left: 3%;
+}
+.wchore {
+	display: block;
+	max-width: 360px;
+	float: right;
+	margin-right: 3%;
+}
+}
+@media all and (min-width: 650px) and (max-width: 860px) {
+.chore {
+	max-width: 280px;
+	margin-left: 1%;
+	float: left;
+}
+.wchore {
+	float: right;
+	max-width: 280px;
+	margin-right: 1%;
+}
+}
+
+
+
+/*Calendar*/
+.calendar-info {
+	margin-top: 300px;
+	margin-left: 5px;
+}
+.cal {
+	background-color: #7BB241;
+	height: 100px;
+	padding-right: 16%;
+	padding-left: 16%;
+	margin-bottom: 10px;
+}
+.cal2 {
+	margin-left: 2%;
+}
+.cal3 {
+	margin-left: 5px;
+	float:right;
+}
+.cal-line {
+	display:inline-block;
+	width: 40%;
+	margin-left: 30%;
+	border: solid #616161 1.75px;
+	margin-top: 45px;
+}
+.cal-name {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+@media all and (max-width: 650px) {
+	.cal-line {
+		width: 70%;
+		margin-left:15%;
+	}
+}
+.calendar-date {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size:42px;
+	line-height: 30px;
+	width:100%;
+	color: #F3F3F3;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	max-width: 100px;
+}
+.calendar-title {
+	max-width: 90%;
+	margin: auto;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #606060;
+}
+.calendar-content {
+	z-index: 5;
+	width: 100%;
+	margin-left: -50%;
+	position: absolute;
+	height: 100px;
+}
+.calendar {
+	width: 100%;
+	margin-bottom: 130px;
+	margin-top: 150px;
+}
+.calendar-detail {
+	margin-top: 0;
+}
+@media all and (min-width: 860px) {
+.calendar-date {
+	font-size: 48px;
+	text-align: left;
+	margin-left: 25px;
+	line-height: 65px;
+}
+.calendar-title {
+	text-align: center;
+	max-width: 65%;
+	margin: 0;
+	margin-left: 25%;
+	margin-top: -55px;
+	font-size: 20px;
+}
+}
+
+
+
+/*Grades*/
+.grade {
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 80px;
+	background-color: #7BB241;
+	margin-bottom: 10px;
+}
+.grade1 {
+	margin-left: 4.16666667%;
+}
+.grades {
+	margin-top: 20px;
+}
+.grade-container {
+	width: calc(100% + 30px);
+	margin-top: -20px;
+	margin-left: -15px;
+	height: 80px;
+}
+.grade-gpa {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 42px;
+	width: 100%;
+	text-align: center;
+	color: #F3F3F3;
+	line-height: 60px;
+}
+.grade-date {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	width: 100%;
+	text-align: center;
+	color: #606060;
+	margin-top: -15px;
+}
+.grades-name {
+	margin
+}
+
+
+
+
+/*Detailed View of Daily Chores*/
+.chore-detail {
+	display: inline-block;
+	margin-left: 4.5%;
+	margin-bottom: 10px;
+}
+@media all and (min-width: 860px) {
+.chore-detail {
+	display: block;
+	max-width: 44%;
+	float: left;
+	margin-left: 3%;
+}
+.chore-detail:nth-child(even) {
+	display: block;
+	max-width: 44%;
+	float: right;
+	margin-right: 3%;
+}
+}
+@media all and (min-width: 650px) and (max-width: 860px) {
+.chore-detail {
+	max-width: 45%;
+	margin-left: 1%;
+	float: left;
+}
+.chore-detail:nth-child(even) {
+	float: right;
+	margin-right: 1%;
+}
+}
+
+
+
+

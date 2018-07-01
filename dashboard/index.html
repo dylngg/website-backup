@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<title>Dashboard Home</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+		<!--Fonts that we're using: Content outside of box is 500, content inside is 400-->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+		<link href="fonts/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<section class="navigation">
+			<h1 class="nav-date"><span class="date-month">May</span> <span class="date-day">12</span>,<br><span class="date-day">Tuesday</span></h1>
+			<div class="nav-list">
+				<ul class="nav">
+					<li class="nav-li">
+						<div class="bullet active"></div>
+						<i class="mdi mdi-home list-image text-active"></i>
+						<span class="nav-title text-active">Homepage</span>
+					</li>
+					<li class="nav-li nav2">
+						<div class="bullet"></div>
+						<i class="mdi mdi-broom list-image"></i>
+						<span class="nav-title">Chores</span>
+					</li>
+					<li class="nav-li nav2">
+						<div class="bullet"></div>
+						<i class="mdi mdi-calendar-blank list-image"></i>
+						<span class="nav-title">Calendar</span>
+					</li>
+					<li class="nav-li nav2">
+						<div class="bullet"></div>
+						<i class="mdi mdi-car list-image"></i>
+						<span class="nav-title">Vacation</span>
+					</li>
+					<li class="nav-li nav2">
+						<div class="bullet"></div>
+						<i class="mdi mdi-school list-image"></i>
+						<span class="nav-title">Grades</span>
+					</li>
+					<li class="nav-li nav2">
+						<div class="bullet"></div>
+						<i class="mdi mdi-currency-usd list-image"></i>
+						<span class="nav-title">Jobs</span>
+					</li>
+				</ul>
+			</div>
+			<div class="nav-bottom">
+				<hr class="nav-line">
+				<div class="person nav-person"></div>
+				<span class="logOut">Log Out</span>
+			</div>
+		</section>
+		<section class="page-container">
+		<nav class="navbar" id="navBar">
+				<div class="pull-left menu-container">
+					<a id="menu-btn"><img src="equal.svg" class="menu"></a>
+				</div>
+				<div class="title-container">
+					<h3 class="title">Dashboard</h3>
+				</div>
+				<div class="pull-right person-icon">
+			<!--Change background-image src for person-->
+					<div class="person"></div>
+				</div>
+		</nav>
+		<main class="main">
+			<section class="main-event pull-left">
+				<h2>
+					<span class="event-title">Moab Trip</span><br>
+					<span class="event-time">Tomorrow</span>
+				</h2>
+			</section>
+			<div class="main-image"></div>
+			<section class="container-fluid main-content">
+				<ul class="chore-info">
+					<li class="chore col-xs-11 col-xs-offset-1 col-md-8 col-md-offset-2x">
+						<h4>What's my Chore?</h4>
+						<div class="box1">
+							<h5 class="box-content">Water the Plants</h5>
+						</div>
+					</li>
+					<li class="wchore col-xs-11 col-md-8 col-md-offset-2 col-xs-offset-1">
+						<h4>What's my W. Chore?</h4>
+						<div class="box1">
+							<h5 class="box-content">The Outdoors</h5>
+						</div>
+					</li>
+				</ul>
+				<section class="calendar">
+					<h4>What's on my Calendar?</h4>
+					<div class="cal cal1 col-xs-3">
+						<div class="calendar-content">
+						<h1 class="calendar-date">12</h1>
+						<h6 class="calendar-title">Moab Trip</h6>
+						</div>
+					</div>
+					<div class="cal cal2 col-xs-3">
+						<div class="calendar-content">
+							<h1 class="calendar-date">26</h1>
+							<h6 class="calendar-title">Fox's Trip</h6>
+						</div>
+					</div>
+					<div class="cal cal3 col-xs-3">
+						<div class="calendar-content">
+							<h1 class="calendar-date">31</h1>
+							<h6 class="calendar-title">Hike the Narrows</h6>
+						</div>
+					</div>
+				</section>
+				<section class="grades">
+					<h4>What's My Grades Like?</h4>
+					<div class="grade grade1 col-xs-5">
+						<div class="grade-container">
+							<h1 class="grade-gpa">4.00</h1>
+							<h2 class="grade-date"><span class="grade-m">5</span>/<span class="grade-d">22</span>/<span class="grade-y">15</span></h2>
+						</div>
+					</div>
+					<div class="grade col-xs-5 col-xs-offset-1">
+						<div class="grade-container">
+							<h1 class="grade-gpa">3.99</h1>
+							<h2 class="grade-date"><span class="grade-m">5</span>/<span class="grade-d">29</span>/<span class="grade-y">15</span></h2>
+						</div>
+					</div>
+				</section>
+			</section>
+		</main>
+		</section>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script>
+			$('#menu-btn').click(function(){
+				$('.page-container').addClass('moveOver');
+
+			});
+		</script>
+	</body>
+</html>

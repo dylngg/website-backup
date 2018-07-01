@@ -1,0 +1,437 @@
+/*Reset all elements to block(Browsers that don't support HTML5)*/
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+body {
+    margin:0 auto;
+}
+.main {
+	margin: 0;
+    background-color:#4FC3F7; /*IE8*/
+    background-color:rgba(79, 195, 247, 1);
+    width:100%;
+	height: 475px;
+}
+.main-me {
+	padding-top: 220px;
+    width:250px;
+    height:250px;
+    bottom: 0;
+    margin-left:8%;
+    display:inline-block;
+}
+.main-img {
+    width:100%;
+    height:100%;
+}
+.more {
+    color:#4FC3F7;
+    text-decoration:none;
+}
+.more:hover {
+    text-decoration:underline
+}
+
+
+
+/*Navbar*/
+.nav {
+	float: right;
+	right: 0;
+    padding-top: 390px;
+	position: absolute;
+	z-index: 50;
+    margin-right:3%;
+    display:inline-block;
+}
+.nav li {
+    display:inline-block;
+    list-style-type:none;
+    margin-right:25px;
+}
+.nav-text {
+    font-family: Roboto, 'Roboto', sans-serif, Arial;
+    color:#efefef;
+    font-weight:300;
+    font-size:32px;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+.nav li a:hover {
+	color:#616161;
+    color:rgba(55 ,71 ,79 ,1); 
+}
+
+
+/*Logo*/
+.logo{
+    margin-left:expression(50% - 307.5px); /*IE6,7,8!, not that people will use it anyway...*/
+    margin-left:calc(50% - 307.5px); /*My all time favorite for configuring position w/ css3!*/
+    width:615px;
+    position:absolute;
+    margin-top:1%;
+}
+.logo h1 {
+    font-family: Roboto, 'Roboto', sans-serif, Arial;
+    color:#efefef;
+    font-weight:200;
+    display:inline-block;
+    font-size:80px;
+}
+.logo-g {
+    margin-top:calc(70% +50px);
+    position:absolute;
+    padding-top:20px;
+    padding-left:4px;
+}
+
+
+
+
+/*The about section*/
+.about {
+	margin-top: -5px;
+    background-color:#616161;
+    background-color:rgba(55 ,71 ,79 ,1);
+    width:100%;
+}
+.about-title {
+    font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color:#efefef;
+	font-size:72px;
+	position:relative;
+	margin:0;
+	width:500px;
+	padding-top:70px;
+	margin-left:calc(50% - 80px);
+}
+.blue {
+    border-top:30px solid #4FC3F7;
+}
+.grey {
+    border-top:#616161;
+    border-top:30px solid rgba(55 ,71 ,79 ,1);
+}
+.white {
+	border-top: #efefef;	
+	border-top:30px solid rgba(207,216,220 ,1);
+}
+.arrow-down {
+	width: 0; 
+	height: 0;
+	margin-top: -5px;
+	margin-left:expression(50% - 10px); /*IE6,7,8!, not that people will use it anyway...*/
+    margin-left:calc(50% - 10px); /*My all time favorite for configuring position w/ css3!*/
+    
+    /*Create the triangle*/
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-top:30px solid inherit;
+	position:absolute;
+	z-index:5;
+}
+.about-img {
+    width:250px;
+    height:250px;
+    margin-top:50px;
+    margin-bottom:70px;
+    margin-left:3%;
+    display:inline-block;
+}
+.about-desc {
+	vertical-align: top;
+    position:absolute;
+    margin-top:80px;
+    margin-left:2%;
+	padding-bottom: 30px;
+    width:65%;
+    display:inline-block;
+    font-family: Roboto, 'Roboto', sans-serif, Arial;
+	font-weight: lighter;
+	font-size:20px;
+	color:#efefef;
+}
+.about-bigger {
+    font-size:38px;
+}
+.work {
+    background-color:#EFEFEF;
+    background-color:rgba(207,216,220 ,1);
+    width:100%;
+}
+.work-title {
+    font-family: Roboto, 'Roboto', sans-serif, Arial;
+	font-weight: lighter;
+	color:#616161;
+	color:rgba(55 ,71 ,79 ,1);
+	font-size:72px;
+	position:absolute;
+	margin-left:calc(50% - 69px);
+	padding-top:30px;
+}
+.project {
+    -moz-border-radius: 200px/200px;
+    -webkit-border-radius: 200px 200px;
+    border-radius: 200px/200px;
+    border:solid 10px #616161;
+    border:solid 10px rgba(55 ,71 ,79 ,1);
+    width:200px;
+    margin-bottom:80px;
+    margin-left:5%;
+    height:200px;   
+    display:inline-block;
+}
+.project-1 {
+    margin-top:210px;	
+	background-color: #eac6ad;
+}
+.project-2 {
+	background-color: #e2afaa;
+}
+.project-img {
+    width:200px;
+    height:200px;
+	float: left;
+}
+.project-desc-container {
+	float: right;
+	margin-right: 15px;
+    width:70%;
+	min-height: 150px;
+	margin-top: 50px;
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+    font-size:22px;
+	font-weight: lighter;
+	color:#616161;
+	color:rgba(55 ,71 ,79 ,1);
+}
+.pro-2 {
+	color:#efefef;	
+}
+.pro-img {
+	border:solid 10px #3A3A3A;
+}
+.project-1-c {
+	margin-top: 250px;
+}
+.Principles {
+	background-color:#616161;
+    background-color:rgba(55 ,71 ,79 ,1);
+    width:100%;	
+}
+.prc-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color:#efefef;
+	color:rgba(207,216,220 ,1);
+	font-size:72px;
+	position:relative;
+	margin:0;
+	width:500px;
+	padding-top:60px;
+	margin-left:calc(50% - 130px);
+	padding-bottom:30px;	
+}
+.prc-img {
+	vertical-align:top;
+	margin-top: 190px;
+	width: 250px;
+	height:250px;
+    margin-bottom:70px;
+    margin-left:3%;
+    display:inline-block;	
+}
+.prc-desc {
+	margin-top: 25px;
+	margin-left: 3%;
+	width: 70%;
+	display:inline-block;	
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+    font-size:22px;
+	font-weight: lighter;
+	color: #efefef;
+}
+
+@media screen and (min-width: 1500px) {
+	.project-desc-container {
+		margin-right: 8%;	
+	}
+}
+@media screen and (min-width: 1300px) {
+	.project-desc-container {
+		margin-right: 45px;	
+	}
+}
+
+/*Smaller Screen*/
+@media screen and (max-width: 1050px) {
+	.main-me {
+		position: absolute;
+		left:-1000px;
+	}
+	.main-img {
+		display: none;
+	}
+	.nav {
+		margin: auto;
+		clear: right;
+		left: calc(50% - 275px);
+	}
+	.about-img {
+		margin-left: .5%;	
+		margin-bottom: 80px;
+	}
+	.about-desc {
+		margin-top: 50px;
+		margin-left: 10px;	
+		width: 60%;
+	}
+	.project {
+		-moz-border-radius: 155px/155px;
+		-webkit-border-radius: 155px 155px;
+		border-radius: 155px/155px;
+		width:155px;
+		height:155px;  
+	}
+	.project-img {
+    	width:155px;
+    	height:155px;
+	}
+	.project-desc-container {
+		width: calc(65% +155px );
+		max-width: calc(65% + 300px);
+		margin-top: 30px;
+	}
+	.project-1-c {
+		margin-top: 220px;
+	}
+}
+/*Tablet Size*/
+@media screen and (max-width: 600px) {
+		
+}
+
+
+.prc-li {
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+    font-size:22px;
+	font-weight: lighter;
+	font-size: 38px;
+	color: #efefef;
+	margin-top: 15px;
+}
+
+.li-indent {
+	margin-top: 5px;
+	margin-left: 20px;
+	display: inline;
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+    font-size:22px;
+	font-weight: lighter;
+	color: #bdbdbd;
+}
+
+.prc-desc ol {
+	margin-bottom: 100px;
+}
+
+.footer {
+	height: 250px;
+	width: 100%;
+	background-color: #4eafc6;
+}
+
+.ft-title {
+	margin-top: 25px;
+	margin-left: 25px;
+	float: left;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color:#efefef;
+	color:rgba(207,216,220 ,1);
+	font-size:36px;
+}
+
+.about-title-2 {
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color:#efefef;
+	position:relative;
+	margin:0 auto;
+	margin-top: -80px;
+	width:115px;
+}
+
+.about-desc-2 {
+	vertical-align: top;
+	position: relative;
+	margin-left:calc(250px + 3% + 2%);
+	padding-bottom: 30px;
+    width:65%;
+	margin-top: -75px;
+	margin-bottom: 25px;
+    display:inline-block;
+    font-family: Roboto, 'Roboto', sans-serif, Arial;
+	font-weight: lighter;
+	font-size:20px;
+	color:#efefef;
+}
+
+table {
+	bottom: 50%;
+	width: 70%;
+	height: 150px;
+}
+th {
+	margin-top: 50px;
+	text-align: left;
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+	font-weight: bold;
+	color:#efefef;
+}
+th, td {
+    padding: 15px;
+	font-family: Roboto, 'Roboto', sans-serif, Arial;
+	color:#efefef;
+	font-size: 20px;
+}
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+
+
+.div-c {
+	padding-top: 35px;
+	right: 0;
+	margin-left: 250px;
+}
+
+td {
+	opacity: .6;
+	font-size: 20px;
+}
+
+.td-more {
+	text-decoration: none;
+	color:inherit;
+}
+.td-more:hover {
+	text-decoration: underline;
+}
+
+.prc-img-main {
+	margin-top: 50px;
+	width: 250px;
+	height:250px;
+    margin-bottom:70px;
+    margin-left:3%;
+    display:inline-block;	
+}

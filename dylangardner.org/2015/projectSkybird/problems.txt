@@ -1,0 +1,2 @@
+possible: scrolling with nav open	
+nav open when above 550px
